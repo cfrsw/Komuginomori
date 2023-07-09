@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+.title {
+  height: 430px;
+  background-image: url(../image/about-view-pc.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.title h1 {
+font-family: "brevia", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+}
+
+.title p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+  max-width: 90%;
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+}
+
+.about-image {
+  width: 360px;
+}
+
+.about-text {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse .about-text {
+  margin-left: 40px;
+  margin-right: 0;
+}
+
+.about-text h2 {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 25px;
+}
+
+.about-text h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #593718;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 140px;
+}
+
+
+
+@media (max-width: 800px) {
+
+  .title {
+    position: relative;
+    z-index: 1;
+    height: 250px;
+    background-image: url(../image/about-imag-mobile.png);
+  }
+  
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .title p {
+    font-size: 13px;
+  }
+
+  .about {
+    display: block;
+    width: 500px;
+    margin-top: 70px;
+  }
+
+  .about-text {
+    margin-right: 0;
+
+  }
+
+  .reverse .about-text {
+    margin-left: 0;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+  
+  .about-text p {
+    font-size: 13px;
+  }
+
+
+
+}
