@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Komuginomori website</title>
+  <meta name="description" content="仮想パン屋「こむぎのもり」のアクセスマップとお問合せフォームが掲載されたページです。">
+  <meta name="viewport" content="width=device-width">
+  <script src="./js/toggle-menu.js"></script>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/access.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hcm0bcl.css">
+</head>
+
+<body>
+
+  <!-- header ここから -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <img src="./image/header-logo.svg" alt="Komuginomori">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li><a href="./access.html">ACCESS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- main ここから -->
+  <main class="main">
+    <div class="title">
+      <h1>ACCESS</h1>
+      <p>アクセス・お問合せ</p>
+    </div>
+    <div class="map-area">
+      <h2>アクセス・マップ</h2>
+      <div class="map-area-inner">
+        <div class="information">
+          <p class="name">こむぎのもり  町田本店</p>
+          <p class="adress">東京都町田市1丁目○○ビル1階</p>
+          <p class="tel">TEL 000 111 2222</p>
+          <p class="business-hours">営業時間  8:00-17:00  月曜定休</p>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19958.13136706963!2d139.43278716263552!3d35.5402626488562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018feb314e04ee3%3A0xad9aefefa259282b!2z55S655Sw6aeF!5e0!3m2!1sja!2sjp!4v1684657582217!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <h2>お問い合せ</h2>
+      <form action="#">
+        <dl class="form-area">
+          <dt><span class="required">お名前</span></dt>
+          <dd><input class="input-text" type="text" name="name" required></dd>
+          <dt><span class="required">メールアドレス</span></dt>
+          <dd><input class="input-text" type="email" name="email" required></dd>
+          <dt>お電話番号</dt>
+          <dd><input class="input-text" type="tel" name="tel"></dd>
+          <dt>お問合せ種別</dt>
+          <dd>
+            <select class="select-box" name="genre">
+              <option value="ご予約について" selected>ご予約について</option>
+              <option value="メニューについて">メニューについて</option>
+              <option value="営業時間について">営業時間について</option>
+            </select>
+          </dd>
+          <dt>お客様について</dt>
+          <dd>
+            <label class="radio-button"><input type="radio" name="user-type" value="一般のお客様" checked>一般のお客様</label>
+            <label class="radio-button"><input type="radio" name="user-type" value="お取引先様">お取引先様</label>
+            <label class="radio-button"><input type="radio" name="user-type" value="その他">その他</label>
+          </dd>
+          <dt><span class="required">お問合せ内容</span></dt>
+          <dd><textarea class="message" name="message" required></textarea></dd>
+        </dl>
+        <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ[Submit]ボタンを押してください。</p>
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- footer ここから -->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./menu.html">MENU</a></li>
+        <li><a href="./shop.html">SHOP</a></li>
+        <li><a href="./access.html">ACCESS</a></li>
+      </ul>
+    </nav>
+    <a class="footer-logo" href=".index.html"><img src="./image/logo-footer.svg" alt="Komuginomori"></a>
+  </footer>
+</body>
+
+</html>
