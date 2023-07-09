@@ -1,0 +1,6 @@
+[5/8/2023, 11:01:57 PM] layer "melon bread.png": Duplicate path: melon bread.png
+[5/8/2023, 11:08:09 PM] layer "cherry blossoms anpan.png": Duplicate path: cherry blossoms anpan.png
+[5/8/2023, 11:01:57 PM] layer "KISSA official website - web-design.camp のコピー 2": Expected end of input but "\u306E" found.
+[5/8/2023, 11:06:24 PM] layer "FireShot Capture 014 - 町田駅 - Google マップ - www.google.com": Unsupported extension: com
+[5/8/2023, 11:01:57 PM] layer "FireShot Capture 014 - 町田駅 - Google マップ - www.google.com": Unsupported extension: com
+[5/8/2023, 11:01:57 PM] layer "top-view-pc.img": Unsupported extension: img
